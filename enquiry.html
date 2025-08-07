@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - whybeCourse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">whybeCourse</div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link-btn">Home</a>
+            <a href="mission.html" class="nav-link-btn">Mission</a>
+            <div class="dropdown">
+                <button class="dropdown-btn">Careers</button>
+                <div class="dropdown-content">
+                    <a href="agriculture.html">Agriculture</a>
+                    <a href="engineering.html">Engineering</a>
+                    <a href="information-technology.html">IT</a>
+                    <a href="business-finance.html">Business</a>
+                </div>
+            </div>
+            <a href="academic.html" class="nav-link-btn">Academic Hub</a>
+            <div class="dropdown">
+                <button class="dropdown-btn">Skills Lab</button>
+                <div class="dropdown-content">
+                    <a href="resume-builder.html">Resume Builder</a>
+                    <a href="interview.html">Interview Prep</a>
+                    <a href="portfolio.html">Portfolio Tips</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-btn">Trends</button>
+                <div class="dropdown-content" style="min-width: 220px;">
+                    <a href="emerging-careers.html">Emerging Careers</a>
+                    <a href="salary-insights.html">Salary Insights</a>
+                    <a href="skills-in-demand.html">Skills in Demand</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-btn">Guidance</button>
+                <div class="dropdown-content">
+                    <a href="quiz.html">Career Personality Quiz</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enquiry Form -->
+    <div class="enquiry-container">
+        <h2 class="enquiry-title">Send Us Your Enquiry</h2>
+        <form id="enquiryForm">
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Enquiry</label>
+                <textarea id="message" class="form-control" placeholder="Write down your enquiry" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+            <div id="formFeedback" class="form-feedback"></div>
+        </form>
+    </div>
+  
+<script src="scripts.js"></script>
+
+</body>
+</html>
